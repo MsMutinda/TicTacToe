@@ -4,15 +4,9 @@
     right: 431px;
 }
 
-.container {
-    width: 100px;
-    margin: auto 50%;
-}
-
 .cell {
     border: 1px solid black;
     cursor: pointer;
-    width: 100px;
     height: 100px;
 }
 
