@@ -1,11 +1,11 @@
 const display = document.querySelector('.game-status'); //store element for the game status display
-let game = True; //when game is in play
+let game = true; //when game is in play
 let currentPlayer = "X"; //who's turn it is
 let gameStatus = ["", "", "", "", "", "", "", "", ""]; //array to store the game status to help with tracking already played cells
 //messages to be displayed when the game draws, is won, or when it's the next player's turn
-const win = () => '${currentPlayer} has won!';
+const win = () => 'Player ' +currentPlayer+ ' has won!';
 const draw = () => 'That was a draw!';
-const playerTurn = () => "It's now ${currentPlayer}'s turn";
+const playerTurn = () => "It is now " +currentPlayer+ "'s turn";
 //array to store the values of cell indexes that need to be populated for one to win
 display.innerHTML = playerTurn();
 const winningConditions = [

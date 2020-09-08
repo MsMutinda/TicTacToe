@@ -1,17 +1,29 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 .game-title {
     font-size: 30px;
     position: relative;
-    right: 431px;
+    left: 8px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 300px;
 }
 
 .cell {
-    border: 1px solid black;
+    border: 1px solid grey;
     cursor: pointer;
+    width: 100px;
     height: 100px;
 }
 
 .reset {
     position: relative;
-    left: 115px;
+    left: 10px;
     top: 50px;
 }
